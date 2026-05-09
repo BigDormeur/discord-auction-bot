@@ -1,0 +1,14 @@
+{
+  "config": {
+    "adminRoleId": null,
+    "auctionChannelId": null,
+    "logChannelId": null,
+    "currency": "🪙",
+    "currencyName": "pièces",
+    "minBidIncrement": 1
+  },
+  "auctions": [],
+  "items": [],
+  "bids": [],
+  "bannedUsers": []
+}
