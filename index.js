@@ -49,7 +49,7 @@ async function registerCommands() {
   try {
     console.log('🔄 Enregistrement des commandes slash...');
     await rest.put(
-      Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
+      Routes.applicationCommands(process.env.CLIENT_ID),
       { body: commands }
     );
     console.log('✅ Commandes slash enregistrées !');
